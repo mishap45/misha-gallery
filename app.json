@@ -1,12 +1,16 @@
 {
-  "name": "misha-gallery",
-  "displayName": "misha-gallery",
   "expo": {
-    "name": "misha-gallery",
-    "slug": "misha-gallery",
+    "name": "MishaGallery",
+    "icon": "./App/assets/gallery.png",
+    "slug": "MishaGallery",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "ios": {
+      "bundleIdentifier": "com.mishaReact.MishaGallery",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mishaReact.MishaGallery",
+      "versionCode": 1
+    }
   }
 }
